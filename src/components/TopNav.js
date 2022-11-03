@@ -13,7 +13,7 @@ const TopNav = ({ colorInvert = false }) => {
         <Link
           underline="none"
           component="a"
-          href="/demos"
+          href="https://github.com/bubiji/mifi-swap-flutter"
           color={colorInvert ? 'common.white' : 'text.primary'}
           sx={{ display: 'flex', alignItems: 'center' }}
         >
@@ -38,7 +38,7 @@ const TopNav = ({ colorInvert = false }) => {
         <Link
           underline="none"
           component="a"
-          href="/blocks"
+          href="https://github.com/bubiji/mifi-swap-flutter/wiki"
           color={colorInvert ? 'common.white' : 'text.primary'}
           sx={{ display: 'flex', alignItems: 'center' }}
         >
@@ -49,7 +49,7 @@ const TopNav = ({ colorInvert = false }) => {
         <Link
           underline="none"
           component="a"
-          href="/docs/introduction"
+          href="https://github.com/bubiji/mifi-swap-flutter/releases/"
           color={colorInvert ? 'common.white' : 'text.primary'}
         >
           Docs
