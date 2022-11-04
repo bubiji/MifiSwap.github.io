@@ -135,7 +135,7 @@ const Hero = () => {
                 variant="contained"
                 color="primary"
                 size="large"
-                href='https://github.com/bubiji/mifi-swap-flutter/releases/download/v1.03/mifiswap_v1.03.apk'
+                href='https://github.com/bubiji/mifi-swap-flutter/releases/download/v1.0.3/mifiswap_v1.0.3.apk'
                 sx={{width: '200px', fontSize: '1.3rem'}}
                 endIcon={
                   <Box
