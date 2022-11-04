@@ -60,20 +60,20 @@ const SidebarNav = () => {
         <Box>
           <Button
             component={'a'}
-            href={'/cloud-hosting'}
+            href={'https://github.com/bubiji/mifi-swap-flutter'}
             fullWidth
             sx={{
               fontSize: '1.2rem',
               justifyContent: 'flex-center',
               color:
-                    activeLink === '/cloud-hosting'
+                    activeLink === 'https://github.com/bubiji/mifi-swap-flutter'
                       ? theme.palette.primary.main
                       : theme.palette.text.primary,
               backgroundColor:
-                    activeLink === '/cloud-hosting'
+                    activeLink === 'https://github.com/bubiji/mifi-swap-flutterg'
                       ? alpha(theme.palette.primary.main, 0.1)
                       : 'transparent',
-              fontWeight: activeLink === '/cloud-hosting' ? 600 : 400,
+              fontWeight: activeLink === 'https://github.com/bubiji/mifi-swap-flutter' ? 600 : 400,
             }}
           >
             {'Products'}
@@ -82,20 +82,20 @@ const SidebarNav = () => {
         <Box>
           <Button
             component={'a'}
-            href={'/desktop-app '}
+            href={'https://github.com/bubiji/mifi-swap-flutter/wiki'}
             fullWidth
             sx={{
               fontSize: '1.2rem',
               justifyContent: 'flex-center',
               color:
-                    activeLink === '/desktop-app'
+                    activeLink === 'https://github.com/bubiji/mifi-swap-flutter/wiki'
                       ? theme.palette.primary.main
                       : theme.palette.text.primary,
               backgroundColor:
-                    activeLink === '/desktop-app'
+                    activeLink === 'https://github.com/bubiji/mifi-swap-flutter/wiki'
                       ? alpha(theme.palette.primary.main, 0.1)
                       : 'transparent',
-              fontWeight: activeLink === '/desktop-app' ? 600 : 400,
+              fontWeight: activeLink === 'https://github.com/bubiji/mifi-swap-flutter/wiki' ? 600 : 400,
             }}
           >
             {'Release'}
@@ -104,20 +104,20 @@ const SidebarNav = () => {
         <Box>
           <Button
             component={'a'}
-            href={'/coworking'}
+            href={'https://github.com/bubiji/mifi-swap-flutter/releases/'}
             fullWidth
             sx={{
               fontSize: '1.2rem',
               justifyContent: 'flex-center',
               color:
-                    activeLink === '/coworking'
+                    activeLink === 'https://github.com/bubiji/mifi-swap-flutter/releases/'
                       ? theme.palette.primary.main
                       : theme.palette.text.primary,
               backgroundColor:
-                    activeLink === '/coworking'
+                    activeLink === 'https://github.com/bubiji/mifi-swap-flutter/releases/'
                       ? alpha(theme.palette.primary.main, 0.1)
                       : 'transparent',
-              fontWeight: activeLink === '/coworking' ? 600 : 400,
+              fontWeight: activeLink === 'https://github.com/bubiji/mifi-swap-flutter/releases/' ? 600 : 400,
             }}
           >
             {'Documents'}
